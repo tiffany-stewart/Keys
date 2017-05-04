@@ -1,0 +1,677 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  background: linear-gradient(
+    rgba(255, 255, 255, .8),
+    rgba(255, 255, 255, .8)
+    ), url(../images/bg2.jpg);
+  background-size: cover;
+}
+
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(../images/preload.gif) center no-repeat #fff;
+}
+
+
+
+#header h2 {
+  font-weight: 300;
+  text-align: center;
+  /*color: #0a0d63;*/
+  /*color: #ff8c8c;*/
+  color: #155877;
+}
+
+#header h2 span {
+  font-size: 40px;
+  font-weight: 100;
+}
+
+#contents {
+  width: 85%;
+  height: 850px;
+  margin: 0 auto;
+  /*background-color: rgba(2, 5, 35, .4);*/
+  margin-bottom: 250px;
+}
+
+/* ROW 1 */
+
+
+.pnp {
+  background: linear-gradient(
+    rgba(53, 53, 53, .5),
+    rgba(53, 53, 53, .5)
+    ), url(../images/pnp.jpg);
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  margin: 0;
+  background-color: transparent;
+  min-height: 200px;
+  width: 33.33%;
+  float: left;
+}
+
+/*.pnp:hover {
+  background: linear-gradient(
+    rgba(53, 53, 53, .0),
+    rgba(53, 53, 53, .0)
+    ), url(../images/pnp.jpg);
+  background-size: cover;
+  background-position: center;
+  transition-timing-function: ease-in-out;
+}*/
+
+.pnp p {
+  text-align: center;
+  padding-top: 60px;
+  font-weight: 100;
+  color: #fff;
+  letter-spacing: 3px;
+  line-height: 20px;
+  width: 100%;
+  overflow: visible;
+  white-space: nowrap
+}
+
+.pnp p:hover {
+  color: #fc7474;
+  transition: 1s;
+  text-decoration: overline;
+  letter-spacing: 5px;
+  overflow: visible;
+  /*font-size: 14px;*/
+  white-space: nowrap;
+  cursor: cell;
+}
+
+
+.setting {
+  background: linear-gradient(
+    rgba(53, 53, 53, .5),
+    rgba(53, 53, 53, .5)
+    ), url(../images/setting.jpg);
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  margin: 0;
+  background-color: transparent;
+  height: 200px;
+  width: 33.2%;
+  margin-left: -4px;
+  float: left;
+}
+
+.setting p {
+  text-align: center;
+  padding-top: 70px;
+  font-weight: 100;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.setting p:hover {
+  color: #fc7474;
+  transition: 1s;
+  text-decoration: overline;
+  letter-spacing: 5px;
+  overflow: visible;
+  cursor: cell;
+}
+
+.indoor {
+  background: linear-gradient(
+    rgba(53, 53, 53, .5),
+    rgba(53, 53, 53, .5)
+    ), url(../images/indoor.jpg);
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  margin: 0;
+  background-color: transparent;
+  height: 200px;
+  width: 33.2%;
+  margin-left: -4px;
+  float: left;
+}
+
+.indoor p {
+  text-align: center;
+  padding-top: 70px;
+  font-weight: 100;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.indoor p:hover {
+  color: #fc7474;
+  transition: 1s;
+  text-decoration: overline;
+  letter-spacing: 5px;
+  overflow: visible;
+  cursor: cell;
+}
+
+
+
+
+/* ROW 2 */
+
+.outdoor {
+  background: linear-gradient(
+    rgba(53, 53, 53, .5),
+    rgba(53, 53, 53, .5)
+    ), url(../images/outdoor.jpg);
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  margin: 0;
+  background-color: transparent;
+  height: 200px;
+  width: 33.33%;
+  float: left;
+}
+
+.outdoor p {
+  text-align: center;
+  padding-top: 70px;
+  font-weight: 100;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.outdoor p:hover {
+  color: #fc7474;
+  transition: 1s;
+  text-decoration: overline;
+  letter-spacing: 5px;
+  overflow: visible;
+  cursor: cell;
+}
+
+.interiors {
+  background: linear-gradient(
+    rgba(53, 53, 53, .5),
+    rgba(53, 53, 53, .5)
+    ), url(../images/interior.jpg);
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  margin: 0;
+  background-color: transparent;
+  height: 200px;
+  width: 33.2%;
+  margin-left: -4px;
+  float: left;
+}
+
+.interiors p {
+  text-align: center;
+  padding-top: 70px;
+  font-weight: 100;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.interiors p:hover {
+  color: #fc7474;
+  transition: 1s;
+  text-decoration: overline;
+  letter-spacing: 5px;
+  overflow: visible;
+  cursor: cell;
+}
+
+.actions {
+  background: linear-gradient(
+    rgba(53, 53, 53, .5),
+    rgba(53, 53, 53, .5)
+    ), url(../images/action.jpg);
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  margin: 0;
+  background-color: transparent;
+  height: 200px;
+  width: 33.2%;
+  margin-left: -4px;
+  float: left;
+}
+
+.actions p {
+  text-align: center;
+  padding-top: 70px;
+  font-weight: 100;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.actions p:hover {
+  color: #fc7474;
+  transition: 1s;
+  text-decoration: overline;
+  letter-spacing: 5px;
+  overflow: visible;
+  cursor: cell;
+}
+
+
+/* ROW 3 */
+
+.relationships {
+  background: linear-gradient(
+    rgba(53, 53, 53, .5),
+    rgba(53, 53, 53, .5)
+    ), url(../images/relationship.jpg);
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  margin: 0;
+  background-color: transparent;
+  height: 200px;
+  width: 33.33%;
+  float: left;
+}
+
+.relationships p {
+  text-align: center;
+  padding-top: 70px;
+  font-weight: 100;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.relationships p:hover {
+  color: #fc7474;
+  transition: 1s;
+  text-decoration: overline;
+  letter-spacing: 4px;
+  overflow: visible;
+  cursor: cell;
+}
+
+.still {
+  background: linear-gradient(
+    rgba(53, 53, 53, .5),
+    rgba(53, 53, 53, .5)
+    ), url(../images/still.jpg);
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  margin: 0;
+  background-color: transparent;
+  height: 200px;
+  width: 33.2%;
+  margin-left: -4px;
+  float: left;
+}
+
+.still p {
+  text-align: center;
+  padding-top: 70px;
+  font-weight: 100;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.still p:hover {
+  color: #fc7474;
+  transition: 1s;
+  text-decoration: overline;
+  letter-spacing: 5px;
+  overflow: visible;
+  cursor: cell;
+}
+
+.demo {
+  background: linear-gradient(
+    rgba(53, 53, 53, .5),
+    rgba(53, 53, 53, .5)
+    ), url(../images/demo.jpg);
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  margin: 0;
+  background-color: transparent;
+  height: 200px;
+  width: 33.2%;
+  margin-left: -4px;
+  float: left;
+}
+
+.demo p {
+  text-align: center;
+  padding-top: 70px;
+  font-weight: 100;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.demo p:hover {
+  color: #fc7474;
+  transition: 1s;
+  text-decoration: overline;
+  letter-spacing: 5px;
+  overflow: hidden;
+  cursor: cell;
+}
+
+
+/* ROW 4 */
+
+.fashion {
+  background: linear-gradient(
+    rgba(53, 53, 53, .5),
+    rgba(53, 53, 53, .5)
+    ), url(../images/fashion.jpg);
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  margin: 0;
+  background-color: transparent;
+  height: 200px;
+  width: 33.33%;
+  float: left;
+}
+
+.fashion p {
+  text-align: center;
+  padding-top: 70px;
+  font-weight: 100;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.fashion p:hover {
+  color: #fc7474;
+  transition: 1s;
+  text-decoration: overline;
+  letter-spacing: 5px;
+  overflow: visible;
+  cursor: cell;
+}
+
+.fitness {
+  background: linear-gradient(
+    rgba(53, 53, 53, .5),
+    rgba(53, 53, 53, .5)
+    ), url(../images/fitness.jpg);
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  margin: 0;
+  background-color: transparent;
+  height: 200px;
+  width: 33.2%;
+  margin-left: -4px;
+  float: left;
+}
+
+.fitness p {
+  text-align: center;
+  padding-top: 70px;
+  font-weight: 100;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.fitness p:hover {
+  color: #fc7474;
+  transition: 1s;
+  text-decoration: overline;
+  letter-spacing: 5px;
+  overflow: visible;
+  cursor: cell;
+}
+
+.food {
+  background: linear-gradient(
+    rgba(53, 53, 53, .5),
+    rgba(53, 53, 53, .5)
+    ), url(../images/food.jpg);
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  margin: 0;
+  background-color: transparent;
+  height: 200px;
+  width: 33.2%;
+  margin-left: -4px;
+  float: left;
+}
+
+.food p {
+  text-align: center;
+  padding-top: 70px;
+  font-weight: 100;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.food p:hover {
+  color: #fc7474;
+  transition: 1s;
+  text-decoration: overline;
+  letter-spacing: 5px;
+  overflow: visible;
+  cursor: cell;
+}
+
+
+
+/* ROW 5 */
+
+.health {
+  background: linear-gradient(
+    rgba(53, 53, 53, .5),
+    rgba(53, 53, 53, .5)
+    ), url(../images/health.jpg);
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  margin: 0;
+  background-color: transparent;
+  height: 200px;
+  width: 33.33%;
+  float: left;
+}
+
+.health p {
+  text-align: center;
+  padding-top: 70px;
+  font-weight: 100;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.health p:hover {
+  color: #fc7474;
+  transition: 1s;
+  text-decoration: overline;
+  letter-spacing: 5px;
+  overflow: visible;
+  cursor: cell;
+}
+
+.work {
+  background: linear-gradient(
+    rgba(53, 53, 53, .5),
+    rgba(53, 53, 53, .5)
+    ), url(../images/work.jpg);
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  margin: 0;
+  background-color: transparent;
+  height: 200px;
+  width: 33.2%;
+  margin-left: -4px;
+  float: left;
+}
+
+.work p {
+  text-align: center;
+  padding-top: 70px;
+  font-weight: 100;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.work p:hover {
+  color: #fc7474;
+  transition: 1s;
+  text-decoration: overline;
+  letter-spacing: 5px;
+  overflow: visible;
+  cursor: cell;
+}
+
+.caption {
+  background: linear-gradient(
+    rgba(53, 53, 53, .5),
+    rgba(53, 53, 53, .5)
+    ), url(../images/caption.jpg);
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  margin: 0;
+  background-color: transparent;
+  height: 200px;
+  width: 33.2%;
+  margin-left: -4px;
+  float: left;
+}
+
+.caption p {
+  text-align: center;
+  padding-top: 70px;
+  font-weight: 100;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.caption p:hover {
+  color: #fc7474;
+  transition: 1s;
+  text-decoration: overline;
+  letter-spacing: 5px;
+  overflow: visible;
+  cursor: cell;
+}
+
+/* ROW 6 */
+
+.basic {
+  background: linear-gradient(
+    rgba(53, 53, 53, .5),
+    rgba(53, 53, 53, .5)
+    ), url(../images/basic.jpg);
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  margin: 0;
+  background-color: transparent;
+  height: 200px;
+  width: 33.2%;
+
+  float: left;
+}
+
+.basic p {
+  text-align: center;
+  padding-top: 70px;
+  font-weight: 100;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.basic p:hover {
+  color: #fc7474;
+  transition: 1s;
+  text-decoration: overline;
+  letter-spacing: 5px;
+  overflow: visible;
+  cursor: cell;
+}
+
+.portrait {
+  background: linear-gradient(
+    rgba(53, 53, 53, .5),
+    rgba(53, 53, 53, .5)
+    ), url(../images/portrait.jpg);
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  margin: 0;
+  background-color: transparent;
+  height: 200px;
+  width: 33.2%;
+  margin-left: -3px;
+  float: left;
+}
+
+.portrait p {
+  text-align: center;
+  padding-top: 70px;
+  font-weight: 100;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.portrait p:hover {
+  color: #fc7474;
+  transition: 1s;
+  text-decoration: overline;
+  letter-spacing: 5px;
+  overflow: visible;
+  cursor: cell;
+}
+
+.tbd {
+  display: inline-block;
+  margin: 0;
+  background-color: transparent;
+  height: 200px;
+  width: 33.2%;
+  margin-left: -4px;
+  float: left;
+}
+
+.tbd p {
+  text-align: center;
+  padding-top: 70px;
+  font-weight: 300;
+  color: #000;
+}
+
+.tbd p:hover {
+  color: #fc7474;
+  transition: 1s;
+  text-decoration: overline;
+  letter-spacing: 5px;
+  overflow: visible;
+  cursor: cell;
+}
+
+
+/* TRUNK ARCHIVE LOGO */
+
+#image-container {
+  margin-bottom: 20px;
+  margin-left: 7.5%;
+}
+
+#image-container img {
+  margin-top: 40px;
+}

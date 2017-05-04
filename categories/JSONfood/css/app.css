@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+#logo {
+  margin-top: 30px;
+  margin-left: 10%;
+}
+
+#jsonOutput {
+  background: linear-gradient(
+  rgba(53, 53, 53, .5),
+  rgba(53, 53, 53, .5)
+  ), url(../images/food.jpg);
+  background-size: cover;
+  /*background-position: center;*/
+  background-position: right;
+  width: 80%;
+  margin: 0 auto;
+  height: 300px;
+  margin-top: 100px;
+  overflow: scroll;
+  border: 1px solid rgba(0, 0, 0, .3);
+  font-size: 8px;
+
+}
+
+#jsonOutput:hover h1 {
+  letter-spacing: 20px;
+  transition: all 1s ease-in-out;
+}
+
+#jsonOutput:hover:after {
+  transition: 1s;
+}
+
+#jsonOutput h1 {
+  text-align: center;
+  padding-top: 100px;
+  color: #fff;
+  font-weight: 100;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+
+#file {
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+#keytable {
+  border: 1px solid #fff;
+  max-width: 100px;
+  max-height: 100px;
+  color: #fff;
+  font-size: 2px;
+  overflow: scroll;
+}
+
+.buttons {
+  text-align: center;
+
+}
+
+.csv {
+  display: inline-block;
+  margin-top: 25px;
+  width: 150px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  background-color: rgba(15, 117, 50, .6);
+  color: #fff;
+  font-weight: 300;
+}
+
+.csv:hover {
+  background-color: rgba(15, 117, 50, .2);
+  /*background-color: transparent;*/
+  transition: 1s;
+  color: rgb(15, 117, 50);
+}
+
+.export {
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 27px;
+  margin-left: 20px;
+  width: 150px;
+  height: 24px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  background-color: rgba(15, 117, 50, .6);
+  color: #fff;
+  font-weight: 300;
+}
+
+.buttons a {
+  text-decoration: none;
+  font-size: 11px;
+  padding-top: 10px;
+  margin: none;
+}
+
+.export:hover {
+  background-color: rgba(15, 117, 50, .2);
+  /*background-color: transparent;*/
+  transition: 1s;
+  color: rgb(15, 117, 50);
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/app.css">
+  <title>Outdoor</title>
+</head>
+<body>
+
+  <div id="logo">
+    <img src="images/ta.png">
+  </div>
+
+  <div id="jsonOutput">
+    <h1>OUTDOOR</h1>
+  </div>
+
+  <div class="buttons">
+    <button class="csv" onclick="document.querySelector('input').click()">SELECT CSV</button>
+
+    <a href="#" class="export">DOWNLOAD</a>
+  </div>
+
+
+  <input style="visibility: collapse; width: 0px;" type="file" onchange="upload(this.files[0])">
+
+
+  <div id="dvData">
+    <table border="0" cellpadding="0" width="100%" id='keytable'> </table>
+  </div>
+
+
+  <div id="keytable"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/stillLife.js"></script>
+</body>
+</html>
